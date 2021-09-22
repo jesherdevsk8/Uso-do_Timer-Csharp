@@ -34,6 +34,8 @@
             this.btnoff = new System.Windows.Forms.Button();
             this.lblExibe = new System.Windows.Forms.Label();
             this.lblTempo = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timer01
@@ -81,11 +83,31 @@
             this.lblTempo.TabIndex = 3;
             this.lblTempo.Text = "Tempo Decorrido";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(21, 187);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(188, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Desenvolvido por: Jesher Minelli Alves";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(234, 205);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTempo);
             this.Controls.Add(this.lblExibe);
             this.Controls.Add(this.btnoff);
@@ -105,6 +127,8 @@
         private System.Windows.Forms.Button btnoff;
         private System.Windows.Forms.Label lblExibe;
         private System.Windows.Forms.Label lblTempo;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
